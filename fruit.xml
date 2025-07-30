@@ -1,0 +1,244 @@
+<aiml version="1.0.1" encoding="UTF-8">
+  <!-- Greetings -->
+  <category>
+      <pattern>HEY</pattern>
+      <template><srai>GREETING</srai></template>
+  </category>
+  <category>
+      <pattern>HELLO</pattern>
+      <template><srai>GREETING</srai></template>
+  </category>
+  <category>
+      <pattern>HI</pattern>
+      <template><srai>GREETING</srai></template>
+  </category>
+  <category>
+      <pattern>AUP</pattern>
+      <template><srai>GREETING</srai></template>
+  </category>
+  <category>
+      <pattern>YO</pattern>
+      <template><srai>GREETING</srai></template>
+  </category>
+  <category>
+      <pattern>WHAT'S UP</pattern>
+      <template><srai>GREETING</srai></template>
+  </category>
+  <category>
+      <pattern>WHATS UP</pattern>
+      <template><srai>GREETING</srai></template>
+  </category>
+  <category>
+      <pattern>GREETING</pattern>
+      <template>Hi! How can I help you today?</template>
+  </category>
+  
+  <!-- Personal -->
+  <category>
+      <pattern>WHAT IS YOUR FAVOURITE FRUIT</pattern>
+      <template>
+          <random>
+              <li>Right now? Apple!</li>
+              <li>Right now? Banana!</li>
+              <li>Right now? Mango!</li>
+              <li>Right now? Strawberry!</li>
+              <li>Right now? Kiwi!</li>
+          </random>
+      </template>
+  </category>
+  <category>
+      <pattern>WHAT FRUIT ARE YOU HATING RIGHT NOW</pattern>
+      <template>
+          <random>
+              <li>Right now? Durian!</li>
+              <li>Right now? Lemon!</li>
+              <li>Right now? Grapefruit!</li>
+              <li>Right now? Passionfruit!</li>
+              <li>Right now? Tomato!</li>
+          </random>
+      </template>
+  </category>
+
+  <!-- General Fruit Questions -->
+  <category>
+      <pattern>WHAT IS A FRUIT</pattern>
+      <template>A fruit is the mature ovary of a flowering plant, typically containing seeds.</template>
+  </category>
+  <category>
+      <pattern>CAN FRUITS BE SEEDLESS</pattern>
+      <template>Yes, some fruits, such as bananas and seedless grapes, are naturally seedless or have been bred to be seedless.</template>
+  </category>
+  <category>
+      <pattern>WHAT IS THE LARGEST FRUIT</pattern>
+      <template>The jackfruit is considered the largest fruit in the world.</template>
+  </category>
+  <category>
+      <pattern>WHAT IS THE SMALLEST FRUIT</pattern>
+      <template>One of the smallest fruits is the watermeal - a tiny aquatic plant fruit - although some berries are similarly diminutive.</template>
+  </category>
+  <category>
+      <pattern>WHAT IS THE SWEETEST FRUIT</pattern>
+      <template>Many would say mangoes or dates are among the sweetest, though it often depends on the variety.</template>
+  </category>
+  <category>
+      <pattern>GIVE ME A RANDOM FACT ABOUT FRUIT</pattern>
+      <template>
+          <random>
+              <li>Did you know there are over 2,000 varieties of apples grown worldwide?</li>
+              <li>Fruits come in an incredible range of colours, shapes and flavours - nature’s very own palette!</li>
+              <li>The banana is technically a berry, while the strawberry is not.</li>
+              <li>Citrus fruits were once so rare in Europe that they symbolised wealth.</li>
+              <li>The durian is known as the "king of fruits" in Southeast Asia because of its distinctive aroma and taste.</li>
+          </random>
+      </template>
+  </category>
+  <category>
+      <pattern>HOW MANY TYPES OF FRUIT ARE THERE</pattern>
+      <template>There are thousands of fruit species around the world, each offering unique flavours and nutritional benefits.</template>
+  </category>
+  <category>
+      <pattern>WHAT IS AN EXAMPLE OF A CITRUS FRUIT</pattern>
+      <template>Oranges, lemons, limes and grapefruits are all examples of citrus fruits.</template>
+  </category>
+  <category>
+      <pattern>WHICH FRUIT IS KNOWN FOR ITS HIGH VITAMIN C CONTENT</pattern>
+      <template>Oranges are particularly renowned for their vitamin C content.</template>
+  </category>
+  <category>
+      <pattern>WHAT FRUIT IS USED TO MAKE WINE</pattern>
+      <template>Grapes are most commonly used to produce wine.</template>
+  </category>
+  <category>
+      <pattern>WHAT IS A TROPICAL FRUIT</pattern>
+      <template>Fruits such as pineapples, mangoes and papayas are classified as tropical fruits.</template>
+  </category>
+  <category>
+      <pattern>WHICH FRUIT HAS A HARD EXTERIOR AND A SOFT INTERIOR</pattern>
+      <template>Coconuts are well known for their hard outer shell and soft, edible interior.</template>
+  </category>
+  <category>
+      <pattern>WHICH FRUIT IS KNOWN FOR ITS FUZZY SKIN</pattern>
+      <template>The peach is celebrated for its soft, fuzzy skin.</template>
+  </category>
+  <category>
+      <pattern>WHICH FRUIT IS DRIED TO MAKE RAISINS</pattern>
+      <template>Grapes are dried to produce raisins.</template>
+  </category>
+  <category>
+      <pattern>WHAT FRUIT IS SYNONYMOUS WITH JAMAICA</pattern>
+      <template>Many associate the ackee fruit with Jamaica - it's even part of the national dish, ackee and saltfish!</template>
+  </category>
+  <category>
+      <pattern>WHICH FRUIT HAS A SPIKY EXTERIOR</pattern>
+      <template>The durian is famous for its spiky outer shell.</template>
+  </category>
+  <category>
+      <pattern>WHICH FRUIT IS A STAPLE IN TROPICAL DIETS</pattern>
+      <template>Bananas are a dietary staple in many tropical regions.</template>
+  </category>
+  <category>
+      <pattern>WHICH FRUIT IS RICH IN POTASSIUM</pattern>
+      <template>Bananas are well known for their high potassium content.</template>
+  </category>
+  <category>
+      <pattern>WHAT IS THE MOST COMMON BERRY</pattern>
+      <template>The strawberry is one of the most popular berries worldwide.</template>
+  </category>
+  <category>
+      <pattern>WHAT ARE THE NUTRITIONAL BENEFITS OF FRUITS</pattern>
+      <template>Fruits are an excellent source of vitamins, minerals, fibre and antioxidants.</template>
+  </category>
+  <category>
+      <pattern>WHAT FRUIT IS USED TO MAKE GUACAMOLE</pattern>
+      <template>The avocado is the key fruit in making guacamole.</template>
+  </category>
+  <category>
+      <pattern>WHAT IS A STONE FRUIT</pattern>
+      <template>Stone fruits, like peaches and plums, have a hard pit or stone inside.</template>
+  </category>
+  <category>
+      <pattern>CAN FRUITS BE GROWN ORGANICALLY</pattern>
+      <template>Yes, many fruits are grown organically without synthetic pesticides or fertilisers.</template>
+  </category>
+  <category>
+      <pattern>WHICH FRUIT HAS THE HIGHEST WATER CONTENT</pattern>
+      <template>Watermelons are renowned for their high water content.</template>
+  </category>
+  <category>
+      <pattern>WHAT FRUIT IS POPULAR IN SMOOTHIES</pattern>
+      <template>Bananas, berries and mangoes are popular choices for smoothies.</template>
+  </category>
+  <category>
+      <pattern>WHICH FRUIT IS KNOWN FOR ITS TANGY TASTE</pattern>
+      <template>Lemons are well known for their tangy, sour flavour.</template>
+  </category>
+  <category>
+      <pattern>WHAT FRUIT IS OFTEN EATEN DRIED</pattern>
+      <template>Fruits such as dates and apricots are commonly enjoyed in dried form.</template>
+  </category>
+  <category>
+      <pattern>WHAT IS THE DIFFERENCE BETWEEN A FRUIT AND A VEGETABLE</pattern>
+      <template>Botanically speaking, a fruit develops from a flower and contains seeds, whereas vegetables come from other parts of the plant.</template>
+  </category>
+  <category>
+      <pattern>ARE FRUITS CONSIDERED HEALTHY</pattern>
+      <template>Absolutely! Fruits are a vital part of a balanced and healthy diet.</template>
+  </category>
+  <category>
+      <pattern>WHICH FRUITS HAVE A NAME CHANGE WHEN DRIED</pattern>
+      <template>
+          Several fruits undergo name changes when dried:
+          - Green grapes become raisins.
+          - Green seedless grapes become sultanas.
+          - Small, dark red/black Corinth grapes become currants.
+          - Plums become prunes.
+          - Jalapeño peppers become chipotles.
+      </template>
+  </category>
+  <category>
+      <pattern>WHICH FRUIT IS THE LARGEST BERRY</pattern>
+      <template>Surprisingly, the watermelon is considered the largest berry!</template>
+  </category>
+  <category>
+      <pattern>WHICH FRUIT HAS THE HIGHEST AMOUNT OF VITAMIN C</pattern>
+      <template>Despite oranges being popular, the Kakadu plum contains significantly more vitamin C!</template>
+  </category>
+  <category>
+      <pattern>WHICH FRUIT HAS THE LOWEST GLYCEMIC INDEX</pattern>
+      <template>Cherries are celebrated for their low glycaemic index, making them a brilliant choice!</template>
+  </category>
+  <category>
+      <pattern>WHICH FRUIT IS HIGHEST IN FIBRE</pattern>
+      <template>Raspberries are exceptionally high in dietary fibre, a fantastic option for a fibre boost!</template>
+  </category>
+  <category>
+      <pattern>WHICH IS THE HOTTEST FRUIT</pattern>
+      <template>The chilli pepper, although not often recognised as a fruit, is renowned for its fiery heat!</template>
+  </category>
+
+  <!-- Wiki trigger -->
+<category>
+    <pattern>W *</pattern>
+    <template>#1$Fruit <star/></template>
+</category>
+<category>
+    <pattern>SHOW ME AN IMAGE OF *</pattern>
+    <template>#2$<star/></template>
+</category>
+
+  <!-- NLP -->
+  <category>
+      <pattern>I KNOW THAT * IS *</pattern>
+      <template>#31$<star index="1"/> is <star index="2"/></template>
+  </category>
+  <category>
+      <pattern>CHECK THAT * IS *</pattern>
+      <template>#32$<star index="1"/> is <star index="2"/></template>
+  </category>
+
+  <!-- Fallback -->
+  <category>
+      <pattern>*</pattern>
+      <template>#99$<star/></template>
+  </category>
+</aiml>
